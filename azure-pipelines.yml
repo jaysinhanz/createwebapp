@@ -4,7 +4,7 @@
 # https://aka.ms/yaml
 
 trigger:
-- main
+- none
 
 pool:
   vmImage: ubuntu-latest
@@ -27,6 +27,6 @@ steps:
     location: 'Australia East'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/jaysinhanz/createwebapp/main/azuredeploy.json'
-    overrideParameters: '-projectName  APipelines'
+    overrideParameters: '-projectName  apipelines'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
