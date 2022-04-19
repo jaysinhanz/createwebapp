@@ -27,6 +27,6 @@ steps:
     location: 'Australia East'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/jaysinhanz/createwebapp/main/azuredeploy.json'
-    overrideParameters: '-projectName  AlanPipelines'
+    overrideParameters: '-projectName  APipelines'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
